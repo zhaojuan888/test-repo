@@ -38,3 +38,10 @@
 - 附加：table-editor-obsidian（Advanced Tables）
 - 来源：GitHub release（various-complements 官方仓库含 -plugin 后缀，初装 404 已修正）
 - 隐私红线：smart-connections 本地嵌入不出机器；Copilot 未装（客户资料敏感性）
+
+## [2026-08-02 21:51] plugins | 安装 Copilot for Obsidian v3.3.3（AI 对话）
+- 目的：用户要求与知识库 AI 对话（Vault QA）
+- 后端：默认 SiliconFlow DeepSeek（SILICONFLOW_API_KEY）+ 备用 Kimi（MOONSHOT_API_KEY）
+- Key 已存在于用户级环境变量，未写入 vault（避免明文入 git）
+- 嵌入模型：SiliconFlow Qwen3-Embedding-0.6B（本地索引）
+- 待用户手动配置：Settings → Copilot → Basic 填入两个 Key + 添加 Kimi 自定义模型
