@@ -26,3 +26,8 @@
 - Home.md：加入产出中心入口 + 工作流说明
 - 8-系统/每日使用指南.md：加入四步知识流（收集→消化→连接→产出）
 - 8-系统/CLAUDE.md：架构树 + 工作流同步更新
+
+## [2026-08-02 21:18] commit | 7c72652 feat: Karpathy三层管线改造，固化规则到CLAUDE.md
+- git 提交结构改造 + Karpathy 规则固化（11 files, +238/-4）
+- CLAUDE.md 新增「Karpathy 规则（最高优先级）」：三层管线/数据流/强制清单/Lint
+- 未提交：.obsidian 插件配置 + 3 个笔记的 LF→CRLF 行尾符差异（无实质内容变化）
