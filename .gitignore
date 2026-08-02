@@ -1,6 +1,9 @@
-.obsidian/workspace
+﻿.obsidian/workspace
 .obsidian/workspace.json
 .obsidian/workspace-mobile.json
 .DS_Store
 Thumbs.db
 .git.bak.*
+
+# API Keys - 不入库
+.obsidian/plugins/copilot/data.json

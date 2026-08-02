@@ -45,3 +45,9 @@
 - Key 已存在于用户级环境变量，未写入 vault（避免明文入 git）
 - 嵌入模型：SiliconFlow Qwen3-Embedding-0.6B（本地索引）
 - 待用户手动配置：Settings → Copilot → Basic 填入两个 Key + 添加 Kimi 自定义模型
+
+## [2026-08-02 21:53] privacy | Copilot 隐私隔离配置
+- 预写 data.json：siliconflowApiKey + qaExclusions="copilot, 1-项目"
+- 默认模型 DeepSeek-V4-Flash|siliconflow，嵌入 Qwen3-Embedding-0.6B|siliconflow
+- data.json 加入 .gitignore（防 Key 入库）
+- 待办：重启 Obsidian 验证加载；Kimi 走 UI 添加自定义 provider
