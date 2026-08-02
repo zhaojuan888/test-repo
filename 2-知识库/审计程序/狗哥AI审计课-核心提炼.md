@@ -119,4 +119,4 @@ updated: 2026-08-02
 
 ## 关联
 - [[8-系统/学习资源索引]] — 茶瓜子 CPAHelper 插件
-- [[8-系统/_system-prompt]] — CLAUDE.md 记忆体系
+- [[8-系统/CLAUDE]] — AI 记忆体系
