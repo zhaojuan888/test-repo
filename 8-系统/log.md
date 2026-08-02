@@ -31,3 +31,10 @@
 - git 提交结构改造 + Karpathy 规则固化（11 files, +238/-4）
 - CLAUDE.md 新增「Karpathy 规则（最高优先级）」：三层管线/数据流/强制清单/Lint
 - 未提交：.obsidian 插件配置 + 3 个笔记的 LF→CRLF 行尾符差异（无实质内容变化）
+
+## [2026-08-02 21:39] plugins | 安装 8 个 Obsidian 插件（审计师场景定制）
+- 第一梯队：obsidian-pdf-plus / quickadd / omnisearch / various-complements
+- 第二梯队：obsidian-spaced-repetition / smart-connections / obsidian-tasks-plugin
+- 附加：table-editor-obsidian（Advanced Tables）
+- 来源：GitHub release（various-complements 官方仓库含 -plugin 后缀，初装 404 已修正）
+- 隐私红线：smart-connections 本地嵌入不出机器；Copilot 未装（客户资料敏感性）
