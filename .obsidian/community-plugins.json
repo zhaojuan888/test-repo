@@ -1,18 +1,15 @@
-﻿[
-    "obsidian-excalidraw-plugin",
-    "obsidian-kanban",
-    "dataview",
-    "templater-obsidian",
-    "calendar",
-    "githobs",
-    "obsidian-textgenerator-plugin",
-    "obsidian-pdf-plus",
-    "quickadd",
-    "omnisearch",
-    "various-complements",
-    "obsidian-spaced-repetition",
-    "smart-connections",
-    "obsidian-tasks-plugin",
-    "table-editor-obsidian",
-    "copilot"
+[
+  "calendar",
+  "obsidian-excalidraw-plugin",
+  "obsidian-kanban",
+  "various-complements",
+  "obsidian-textgenerator-plugin",
+  "templater-obsidian",
+  "obsidian-tasks-plugin",
+  "obsidian-spaced-repetition",
+  "smart-connections",
+  "quickadd",
+  "pdf-plus",
+  "omnisearch",
+  "copilot"
 ]

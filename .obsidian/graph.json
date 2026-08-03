@@ -9,31 +9,52 @@
   "colorGroups": [
     {
       "query": "path:2-知识库/处罚案例",
-      "color": { "a": 1, "rgb": 14830410 }
+      "color": {
+        "a": 1,
+        "rgb": 14830410
+      }
     },
     {
       "query": "path:2-知识库/会计准则",
-      "color": { "a": 1, "rgb": 3640029 }
+      "color": {
+        "a": 1,
+        "rgb": 3640029
+      }
     },
     {
       "query": "path:2-知识库/审计程序",
-      "color": { "a": 1, "rgb": 6527266 }
+      "color": {
+        "a": 1,
+        "rgb": 6527266
+      }
     },
     {
       "query": "path:2-知识库/税法",
-      "color": { "a": 1, "rgb": 15703847 }
+      "color": {
+        "a": 1,
+        "rgb": 15703847
+      }
     },
     {
       "query": "path:2-知识库/行业研究",
-      "color": { "a": 1, "rgb": 8353757 }
+      "color": {
+        "a": 1,
+        "rgb": 8353757
+      }
     },
     {
       "query": "path:1-项目",
-      "color": { "a": 1, "rgb": 14178864 }
+      "color": {
+        "a": 1,
+        "rgb": 14178864
+      }
     },
     {
       "query": "path:6-每日笔记",
-      "color": { "a": 1, "rgb": 8947584 }
+      "color": {
+        "a": 1,
+        "rgb": 8947584
+      }
     }
   ],
   "collapse-display": true,
