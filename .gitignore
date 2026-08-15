@@ -7,3 +7,6 @@ Thumbs.db
 
 # API Keys - 不入库
 .obsidian/plugins/copilot/data.json
+
+# AI 插件自动生成的索引工作文件 - 不入库
+.smart-env/
