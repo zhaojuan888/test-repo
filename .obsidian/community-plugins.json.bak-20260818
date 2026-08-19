@@ -1,10 +1,13 @@
 [
   "calendar",
+  "obsidian-excalidraw-plugin",
+  "obsidian-kanban",
   "various-complements",
   "templater-obsidian",
   "obsidian-tasks-plugin",
+  "obsidian-spaced-repetition",
   "smart-connections",
+  "quickadd",
   "omnisearch",
-  "copilot",
-  "dataview"
+  "copilot"
 ]
