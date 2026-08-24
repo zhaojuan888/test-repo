@@ -51,3 +51,15 @@
 - 默认模型 DeepSeek-V4-Flash|siliconflow，嵌入 Qwen3-Embedding-0.6B|siliconflow
 - data.json 加入 .gitignore（防 Key 入库）
 - 待办：重启 Obsidian 验证加载；Kimi 走 UI 添加自定义 provider
+
+## [2026-08-23 20:50] staging | 补完 staging_convert.py + 标签规范（0-收件箱自动转 md）
+- 重写 `8-系统/staging_convert.py`：新增链接类（.url/.webloc/纯URL文本）→ `情报` 型待抓取笔记（tags: staging/web/capture/平台 + platform 字段）；截图类（png/jpg）→ 占位笔记 + 入 _needs_ocr.txt，tags 加 MinerU/capture/截图；修 .md 源文件双后缀命名；加 --dry-run。
+- 建 managed venv（注意 Windows 用 Scripts\ 非 bin\）装 pypdf/python-docx/openpyxl/watchdog，沙箱+真实 0-收件箱均验证通过。
+- 固化 `4-模板/标签规范.md`：status 受控词表补 `待归类`；来源维度加 `capture`/`截图` + 平台标签；新增「六、捕获与补采工作流（视频号/B站盲区）」。
+- 新建 `8-系统/ima_rag_integration.md`（IMA RAG 接入方案：本会话 ima-mcp disconnected，需重连；敏感不出域红线；3 个 IMA 库 ID 检索约定）。
+- 新建 `8-系统/skill_naming_governance.md`（77 技能命名治理：受控词表+全量分类+漂移表+重命名提案；软链共享高风险，只出方案不自动改名）。
+
+## [2026-08-23 20:50] skills | 命名漂移治理（仅出方案）
+- 77 技能中漂移点：gridman(语义不明)/企查查…(超长中文)/存货计价…(中英混排)/kimi-data-tools-v2(版本后缀)/related-party·regulatory-penalty(缺前缀)/extract 家族不一致。
+- 非 skill 文件混在 skills 目录：`skills_catalog.md`、`_bm_skillid_migration.json` → 建议隔离至 8-系统/。
+- 处置：待用户确认后执行隔离 + 低/中风险改名；平台类不改。
