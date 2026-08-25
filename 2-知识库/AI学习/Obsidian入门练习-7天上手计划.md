@@ -1,8 +1,10 @@
 ---
-type: 资料-待分类
+type: procedure
+category: [AI学习, 知识管理]
 tags: [Obsidian, 知识管理, 工具]
 created: 2026-08-21
-status: 待处理
+updated: 2026-08-25
+status: active
 source: "[[Obsidian学习资源索引]]（B站教程精选）"
 ---
 
