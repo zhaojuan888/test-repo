@@ -57,7 +57,9 @@ for rel, p in files.items():
             continue
         r = resolve(t)
         if r is None:
-            dead[t].append(rel)
+            # 4-模板/ 用 [[XX行业-...]] 等占位符是模板设计使然，不计死链
+            if not rel.startswith("4-模板/"):
+                dead[t].append(rel)
         else:
             ok += 1
             if r != rel:
