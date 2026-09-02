@@ -45,6 +45,11 @@ for rel, p in files.items():
         if not p.endswith(".md"):
             continue
         txt = ""
+    # 代码块与行内代码中的 [[...]] 是示范文本，不算链接
+    # 顺序：围栏代码块 → 双反引号 → 单反引号（勿颠倒，否则双反引号被拆坏）
+    txt = re.sub(r"```[\s\S]*?```", "", txt)
+    txt = re.sub(r"``[^`\n]*``", "", txt)
+    txt = re.sub(r"`[^`\n]*`", "", txt)
     targets = {m.group(1).strip() for m in link_re.finditer(txt)}
     ok = 0
     for t in targets:
